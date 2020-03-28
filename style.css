@@ -8,9 +8,9 @@
 }
 body{
     background: url(/images/bg-pattern-desktop.svg);
-    background-image: linear-gradient(to left,hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background-image: linear-gradient(to left, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
-    display: flex;
+    display: block;
 }
 .container {
     display: flex;
@@ -22,6 +22,7 @@ body{
 } 
 .bg-desktop {
     display: none;
+    background-image: url("/images/hero-desktop.jpg");
 }
 title{
     font-size: large;
