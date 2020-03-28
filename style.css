@@ -11,7 +11,8 @@ body{
     background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
     width: 1440px;
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 .container{
     display: flex;
@@ -22,9 +23,7 @@ body{
     width: 200px;
 } 
 .bg-mobile{
-    display: block;
-    margin: 0 -40px;
-    width: calc(100% + 80px);}
+    display: none;}
 h1{
     font-size: 60px;
     font-weight: 400;
