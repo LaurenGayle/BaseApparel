@@ -52,6 +52,11 @@ h1{
     margin-bottom: 25px;
     margin-top: 10px;
     line-height: 1.1;
+    transform: translateX(-100%);
+}
+h1 span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
 }
 p{
     font-size: 16px;
@@ -59,10 +64,13 @@ p{
     font-family: Josefin Sans;
     color: hsl(0, 36%, 70%);
     line-height: 26px;
+    transform: translateX(100%);
+    opacity: 0;
 }
 form {
     position: relative;
     margin-top: 25px;
+    transform: translateX(-100%);
 }
 input {
     background-color: transparent;
@@ -88,7 +96,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
-    background-image: linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+    background-image: linear-gradient(135deg, from hsl(0, 76%, 75%), to hsl(0, 79%, 65%));
     padding: 15px;
     border-radius: 50px;
     width: 100px;
