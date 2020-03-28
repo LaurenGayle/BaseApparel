@@ -2,16 +2,11 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
 }
 body{
     background: url(/images/bg-pattern-desktop.svg);
     background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
-    display: flex;
-    flex-direction: row;
 }
 .container{
     display: flex;
