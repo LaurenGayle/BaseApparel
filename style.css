@@ -10,7 +10,6 @@ body{
     background: url(/images/bg-pattern-desktop.svg);
     background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
-    width: 1440px;
     display: flex;
     flex-direction: row;
 }
