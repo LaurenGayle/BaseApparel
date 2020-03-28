@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap");
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body{
     background: url(/images/bg-pattern-desktop.svg);
     background-image: linear-gradient(to left,hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
