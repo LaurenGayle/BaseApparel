@@ -10,12 +10,12 @@ body{
     background: url(/images/bg-pattern-desktop.svg);
     background-image: linear-gradient(to left,hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
+    display: flex;
 }
 .container {
     display: flex;
     min-height: 100vh;
-}
-  
+} 
 .logo {
     margin: 60px 0;
     width: 200px;
