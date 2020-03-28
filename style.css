@@ -10,7 +10,6 @@ body{
     background: url(/images/bg-pattern-desktop.svg);
     background-image: linear-gradient(to left, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     font-family: Josefin Sans;
-    display: block;
 }
 .container {
     display: flex;
@@ -22,7 +21,6 @@ body{
 } 
 .bg-desktop {
     display: none;
-    background-image: url("/images/hero-desktop.jpg");
 }
 title{
     font-size: large;
@@ -30,14 +28,24 @@ title{
     font-family: Josefin Sans;
     color: black;
 }
-.left-sec__content {
+.left-sec {
     background-image: url("../images/bg-pattern-desktop.svg");
     background-size: cover;
     background-position: center center;
     padding: 0 40px 40px;
     width: 60%;
+} 
+.left-sec__content {
     margin: 0 auto;
     max-width: 450px;
+} 
+.rigth-sec {
+    width: 40%;
+ }
+.bg-img {
+    background-image: url("/images/hero-desktop.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 h1{
     font-size: medium;
