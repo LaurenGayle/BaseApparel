@@ -27,7 +27,7 @@ h1{
     color: hsl(0, 6%, 24%);
     letter-spacing: 10px;
     text-transform: uppercase;
-    position: inherit;
+    position: relative;
     margin-bottom: 25px;
     margin-top: 10px;
     line-height: 1.1;
@@ -45,7 +45,7 @@ p{
     line-height: 26px;
     transform: translateX(100%);
     opacity: 0;
-    position: inherit;
+    position: relative;
 }
 .left-sec{
     background-image: url("../images/bg-pattern-desktop.svg");
