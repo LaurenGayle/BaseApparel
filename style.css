@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap");
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,38 +12,32 @@ body{
     font-family: Josefin Sans;
     display: block;
 }
-.container {
+.container{
     display: flex;
     min-height: 100vh;
 } 
-.logo {
+.logo{
     margin: 60px 0;
     width: 200px;
 } 
-.bg-desktop {
+.bg-mobile{
     display: none;
 }
-title{
-    font-size: large;
-    font-weight: 600;
-    font-family: Josefin Sans;
-    color: black;
-}
-.left-sec {
+.left-sec{
     background-image: url("../images/bg-pattern-desktop.svg");
     background-size: cover;
     background-position: center center;
     padding: 0 40px 40px;
     width: 60%;
 } 
-.left-sec__content {
+.left-sec__content{
     margin: 0 auto;
     max-width: 450px;
 } 
-.rigth-sec {
+.rigth-sec{
     width: 40%;
  }
-.bg-img {
+.bg-img{
     background-image: url("/images/hero-desktop.jpg");
     background-size: cover;
     background-position: center center;
